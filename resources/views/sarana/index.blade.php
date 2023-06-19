@@ -23,7 +23,6 @@
                     <th class="px-4 py-2 font-semibold text-left">Kapasitas</th>
                     <th class="px-4 py-2 font-semibold text-left">Satuan</th>
                     <th class="px-4 py-2 font-semibold text-left">Tanggal Pembelian</th>
-                    <th class="px-4 py-2 font-semibold text-left">Aksi</th>
                 </tr>
             </thead>
                         </thead>
@@ -38,20 +37,7 @@
                                     <td class="py-2 px-4 border-b border-gray-200 dark:border-gray-700">{{ $sarana->kapasitas }}</td>
                                     <td class="py-2 px-4 border-b border-gray-200 dark:border-gray-700">{{ $sarana->satuan }}</td>
                                     <td class="py-2 px-4 border-b border-gray-200 dark:border-gray-700">{{ $sarana->tanggal_pembelian }}</td>
-                                    <td class="py-2 px-4 border-b border-gray-200 dark:border-gray-700">
-                                        <form action="{{ route('sarana.destroy', $sarana->id) }}" method="POST" class="inline">
-                                            @csrf
-                                            @method('DELETE')
-                                            <button type="submit" class="btn btn-primary btn-sm">Edit</button>
-                                        </form>
-                                        <form action="{{ route('sarana.destroy', $sarana->id) }}" method="POST" class="inline">
-                                            @csrf
-                                            @method('DELETE')
-                                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus sarana prasarana ini?')">
-                                             
-                                                 Hapus</button>
-                                        </form>
-                                    </td>
+                              
                                     
                                 </tr>
                             @endforeach

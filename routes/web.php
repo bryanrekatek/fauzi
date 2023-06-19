@@ -72,6 +72,8 @@ Route::group(['middleware' => 'cekopd'], function () {
 
         Route::controller(SaranaController::class)->group(function () {
             Route::get('/sarana', 'index')->name('sarana.index');
+            Route::get('/buku', 'index_p')->name('buku.index');
+            Route::get('/usr', 'index_u')->name('usr.index');
            
         });
     });

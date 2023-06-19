@@ -23,12 +23,12 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('sarana.index')">
+                    <x-nav-link :href="route('usr.index')">
                         {{ __('Data Pengguna') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('sarana.index')">
+                    <x-nav-link :href="route('buku.index')">
                         {{ __('Data Buku') }}
                     </x-nav-link>
                 </div>
