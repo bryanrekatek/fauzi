@@ -21,7 +21,7 @@
 
       </div>
       <div class="info">
-        <a href="/profil" class="d-block">{{ Auth::user()->name }}</a>
+        <a href="/profile" class="d-block">{{ Auth::user()->name }}</a>
       </div>
     </div>
     <!-- Sidebar Menu -->
