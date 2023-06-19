@@ -22,7 +22,7 @@
       </a>
       <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
         <span class="dropdown-item dropdown-header"> 
-         <a href="/profil"> Profil User</span></a>
+         <a href="/profile"> Profil User</span></a>
         <div class="dropdown-divider"></div>
         <a href="#" class="dropdown-item">
           <i class="fas fa-envelope mr-2"></i> {{ Auth::user()->email }}
