@@ -47,7 +47,7 @@
           <a href="{{ route('user') }}" class="nav-link">
             <i class="nav-icon fas fa-users"></i>
             <p>
-              Data User
+              Data Pengguna
               <span class="right badge badge-danger"></span>
             </p>
           </a>
